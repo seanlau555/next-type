@@ -4,7 +4,6 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 type Data = {
   name: string
 }
-
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
@@ -28,6 +27,7 @@ const last = <T>(arr: Array<T>): T => {
 }
 
 const l = last([1, 2, 3])
+// can overwite
 const l2 = last<string>(['a', 'b', 'c'])
 
 //                  Y default type number
@@ -57,8 +57,17 @@ const v5 = makeFullName({ firstName: 'bob', lastName: 'junior', age: 15 })
 // const v6 = makeFullName({another: 'bob', lastName: 'junior', age: 15})
 
 // interfaces
-interface Tab {
+interface Tab<T> {
   id: string
   position: number
   data: T
 }
+
+type NumberTab = Tab<number>
+// = down below
+// type NumberTab = {
+//   id: string
+//   position: number
+//   data: number
+// }
+type StringTab = Tab<string>
