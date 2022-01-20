@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://localhost/en/aboutUs/</loc>
+        <lastmod>2022-01-20</lastmod>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost/en/aboutUs/" />
+		<xhtml:link rel="alternate" hreflang="zh-hans" href="https://localhost/zh-hans/aboutUs/" />
+		<xhtml:link rel="alternate" hreflang="zh-hant" href="https://localhost/zh-hant/aboutUs/" />
+    </url>
+    <url>
+        <loc>https://localhost/zh-hans/aboutUs/</loc>
+        <lastmod>2022-01-20</lastmod>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost/en/aboutUs/" />
+		<xhtml:link rel="alternate" hreflang="zh-hans" href="https://localhost/zh-hans/aboutUs/" />
+		<xhtml:link rel="alternate" hreflang="zh-hant" href="https://localhost/zh-hant/aboutUs/" />
+    </url>
+    <url>
+        <loc>https://localhost/zh-hant/aboutUs/</loc>
+        <lastmod>2022-01-20</lastmod>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost/en/aboutUs/" />
+		<xhtml:link rel="alternate" hreflang="zh-hans" href="https://localhost/zh-hans/aboutUs/" />
+		<xhtml:link rel="alternate" hreflang="zh-hant" href="https://localhost/zh-hant/aboutUs/" />
+    </url>
+    <url>
+        <loc>https://localhost/en/</loc>
+        <lastmod>2022-01-20</lastmod>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost/en/" />
+		<xhtml:link rel="alternate" hreflang="zh-hans" href="https://localhost/zh-hans/" />
+		<xhtml:link rel="alternate" hreflang="zh-hant" href="https://localhost/zh-hant/" />
+    </url>
+    <url>
+        <loc>https://localhost/zh-hans/</loc>
+        <lastmod>2022-01-20</lastmod>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost/en/" />
+		<xhtml:link rel="alternate" hreflang="zh-hans" href="https://localhost/zh-hans/" />
+		<xhtml:link rel="alternate" hreflang="zh-hant" href="https://localhost/zh-hant/" />
+    </url>
+    <url>
+        <loc>https://localhost/zh-hant/</loc>
+        <lastmod>2022-01-20</lastmod>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost/en/" />
+		<xhtml:link rel="alternate" hreflang="zh-hans" href="https://localhost/zh-hans/" />
+		<xhtml:link rel="alternate" hreflang="zh-hant" href="https://localhost/zh-hant/" />
+    </url>
+</urlset>
