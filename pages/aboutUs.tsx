@@ -2,7 +2,9 @@ import { NextPage, GetStaticProps } from 'next'
 import { useRouter } from 'next/router'
 import { aboutUsContent } from 'common/locales'
 import Link from 'next/link'
-import Head from 'next/head'
+import HeadMeta from 'components/Head'
+import Script from 'next/script'
+// import Head from 'next/head'
 
 type NewsCardProps = {
   title: string
@@ -12,6 +14,11 @@ type NewsCardProps = {
 const NewsCard = (item: NewsCardProps) => {
   return <div>{item.title}</div>
 }
+
+//       <Head>
+//         <title>TV</title>
+//         <link rel="icon" href="/favicon.ico" />
+//       </Head>
 
 const AboutUs: NextPage = (props) => {
   // const { locale, locales, defaultLocale, asPath } = useRouter()
@@ -24,11 +31,16 @@ const AboutUs: NextPage = (props) => {
 
   return (
     <div>
-      <Head>
-        <title>TV</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <div
+        id="gtm"
+        dangerouslySetInnerHTML={{
+          __html: `
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWGH4WD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  `,
+        }}
+      />
+      <HeadMeta />
       <div>
         <div
           style={{
